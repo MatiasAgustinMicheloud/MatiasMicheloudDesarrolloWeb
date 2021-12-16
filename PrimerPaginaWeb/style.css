@@ -12,6 +12,7 @@ h1{
     background-color:pink;
     padding: 30px;
     border-radius: 20px;
+    border: solid;
 }
 
 p{
@@ -19,7 +20,7 @@ p{
 }
 
 .columna{
-    width: 40%;
+    width: 46%;
     float: left;
     margin: 2%;
 }
@@ -29,4 +30,36 @@ img{
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin: 10px;
+}
+
+.adentro{
+    width: 50%;
+    float: left;
+    
+}
+
+@media screen and (max-width:800px){
+    .adentro{
+        width: 100%;
+        float: none;
+    }
+
+    .columna{
+        width: 100%;
+        margin: 0px;
+        float: none;
+    }
+
+    img{
+        margin: 0px;
+    }
+
+    p{
+        font-size: small;
+    }
+
+    h1{
+        font-size: large;
+    }
 }
